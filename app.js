@@ -20,9 +20,19 @@ estudiantes.push('Emanuel');
 
 console.log(estudiantes);
 
+// Para sacar el último elemento .pop()
+estudiantes.pop();
+
+// Para sacar por posición .splice(pos,1 )
+estudiantes.splice(1,1);
+
+
 for(let i=0; i< estudiantes.length; i++){
     ul.innerHTML += '<li>' + estudiantes[i] + '</li>';
 }
+
+
+
 
 /* let i = 0;
 let n = estudiantes.length;
