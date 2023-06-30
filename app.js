@@ -28,7 +28,7 @@ estudiantes.splice(1,1);
 
 
 for(let i=0; i< estudiantes.length; i++){
-    ul.innerHTML += '<li>' + estudiantes[i] + '</li>';
+    ul.innerHTML += '<li>' + estudiantes[i] +   ' <span class="btn-delete"> x </span> </li>';
 }
 
 
